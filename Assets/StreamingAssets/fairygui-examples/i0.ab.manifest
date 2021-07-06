@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-CRC: 3699315222
+CRC: 3169438247
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dc922fdd059ed59518a44d42745056f7
+    Hash: 222ef684c057f313e5dd4d4da8bda536
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4cd0a5558493b0679e071c141fc729a3
+    Hash: 525b72fdacf3aef7d65f355ad8f17a96
 HashAppended: 0
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 Assets:
-- Assets/FairyGUI/Examples/Resources/Icons/i0.png
+- Assets/Examples/Resources/Icons/i0.png
 Dependencies: []
