@@ -10,11 +10,11 @@ public class BuildAssetBundles
 #if (UNITY_5 || UNITY_5_3_OR_NEWER)
         for (int i = 0; i < 10; i++)
         {
-            AssetImporter.GetAtPath("Assets/FairyGUI/Examples/Resources/Icons/i" + i + ".png").assetBundleName = "fairygui-examples/i" + i + ".ab";
+            AssetImporter.GetAtPath("Assets/Examples/Resources/Icons/i" + i + ".png").assetBundleName = "fairygui-examples/i" + i + ".ab";
         }
 
-        AssetImporter.GetAtPath("Assets/FairyGUI/Examples/Resources/UI/BundleUsage_fui.bytes").assetBundleName = "fairygui-examples/bundleusage.ab";
-        AssetImporter.GetAtPath("Assets/FairyGUI/Examples/Resources/UI/BundleUsage_atlas0.png").assetBundleName = "fairygui-examples/bundleusage.ab";
+        AssetImporter.GetAtPath("Assets/Examples/Resources/UI/BundleUsage_fui.bytes").assetBundleName = "fairygui-examples/bundleusage.ab";
+        AssetImporter.GetAtPath("Assets/Examples/Resources/UI/BundleUsage_atlas0.png").assetBundleName = "fairygui-examples/bundleusage.ab";
 
         BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath, BuildAssetBundleOptions.None, BuildTarget.Android);
 #else
